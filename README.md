@@ -25,7 +25,7 @@ Tired of sitting through long YouTube videos, endless articles, or bulky documen
 
 ---
 ### Image Preview
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/97b50a54-0279-42a6-8057-3213c5f2eb70" />
+<img width="1911" height="1013" alt="image" src="https://github.com/user-attachments/assets/862a7aec-1001-47a1-8ad7-76bfcd125ad9" />
 
 ---
 
