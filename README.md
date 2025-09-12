@@ -9,7 +9,7 @@
 # 📘 LiteNote
 ### Smart Summaries, Simplified.
 
-# 🚀 Elevator Pitch
+## 🚀 Elevator Pitch
 Tired of sitting through long YouTube videos, endless articles, or bulky documents? LiteNote is your AI-powered companion that condenses hours of content into clear, actionable notes. Save time, capture insights, and focus only on what matters — your quick path from lengthy content to bite-sized knowledge.
 
 ---
