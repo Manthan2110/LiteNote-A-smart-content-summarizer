@@ -11,7 +11,7 @@
 # 📘 LiteNote
 ### Smart Summaries, Simplified.
 
-## 🚀 Elevator Pitch
+### 🚀 Elevator Pitch
 Tired of sitting through long YouTube videos, endless articles, or bulky documents? LiteNote is your AI-powered companion that condenses hours of content into clear, actionable notes. Save time, capture insights, and focus only on what matters — your quick path from lengthy content to bite-sized knowledge.
 
 ---
@@ -24,8 +24,12 @@ Tired of sitting through long YouTube videos, endless articles, or bulky documen
 - 🔄 Multiple Formats – Copy, save, or share your summaries instantly.
 
 ---
+### Image Preview
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/97b50a54-0279-42a6-8057-3213c5f2eb70" />
 
-## 🛠️ How It Works
+---
+
+### 🛠️ How It Works
 1. Paste a YouTube link or upload your document/text.
 2. LiteNote extracts the transcript or text content.
 3. The AI generates a crisp, structured summary highlighting the key points.
@@ -33,7 +37,7 @@ Tired of sitting through long YouTube videos, endless articles, or bulky documen
 
 ---
 
-## 🛠️ Tech Stack  
+### 🛠️ Tech Stack  
 
 - [Streamlit](https://streamlit.io/) – Frontend framework  
 - [Google Gemini AI](https://ai.google/) – Generative AI for summarization  
@@ -47,13 +51,13 @@ Tired of sitting through long YouTube videos, endless articles, or bulky documen
 
 ---
 
-## 🚀 Quick Start
+### 🚀 Quick Start
 
 ### Prerequisites
 - Python **3.8+**
 - Google Gemini API key ([Get it here](https://makersuite.google.com/app/apikey))
 
-### Installation
+#### Installation
 
 ```bash
 # Clone project
@@ -71,7 +75,7 @@ streamlit run app.py
 
 ---
 
-## 🖼️ Example Output
+### 🖼️ Example Output
 Input: YouTube video (20 minutes) on AI in Healthcare.
 Output (LiteNote):
   - AI improves early disease detection.
@@ -82,7 +86,7 @@ Output (LiteNote):
 From 20 minutes → 4 bullet points. 💡
 
 -- 
-## 💡 Why LiteNote?
+### 💡 Why LiteNote?
 - ⏳ Save Time: No more wasting hours watching or reading.
 - 🧠 Stay Informed: Get the core insights fast.
 - 🎯 Be Productive: Focus on action, not consumption.
@@ -97,7 +101,7 @@ From 20 minutes → 4 bullet points. 💡
 
 ---
 
-## 🤝 Contributing
+### 🤝 Contributing
 Contributions are welcome! Feel free to:
 - Open an issue 🐞
 - Suggest new features 💡
@@ -105,9 +109,9 @@ Contributions are welcome! Feel free to:
 
 ---
 
-## 📜 License
+### 📜 License
 MIT License – free to use, modify, and share.
 
 ---
 
-## 🔥 With LiteNote, you don’t just read or watch — you understand faster.
+#### 🔥 With LiteNote, you don’t just read or watch — you understand faster.
