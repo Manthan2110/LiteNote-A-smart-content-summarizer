@@ -456,7 +456,7 @@ with st.sidebar:
                 test_response = model.generate_content("Hello")
                 st.session_state.api_key_set = True
                 st.success("✅ API Key configured successfully!")
-                st.experimental_rerun()
+                st.rerun()
             except Exception as e:
                 st.error(f"❌ Invalid API Key: {str(e)}")
         else:
@@ -554,5 +554,6 @@ st.markdown("""
     <p><small>Universal AI-powered content summarization for YouTube videos and web articles</small></p>
 </div>
 """, unsafe_allow_html=True)
+
 
 
