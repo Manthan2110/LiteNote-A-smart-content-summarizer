@@ -296,7 +296,7 @@ def extract_website_content(url):
 
 def generate_gemini_summary(content_data, lang_choice, summary_level, summary_style, content_type):
     try:
-        model = genai.GenerativeModel("gemini-1.5-flash")
+        model = genai.GenerativeModel("gemini-2.0-flash-exp")
 
         content = content_data['content']
         title = content_data.get('title', 'Unknown Title')
@@ -452,7 +452,7 @@ with st.sidebar:
         if api_key:
             try:
                 genai.configure(api_key=api_key)
-                model = genai.GenerativeModel("gemini-1.5-flash")
+                model = genai.GenerativeModel("gemini-2.0-flash-exp")
                 test_response = model.generate_content("Hello")
                 st.session_state.api_key_set = True
                 st.success("✅ API Key configured successfully!")
@@ -554,4 +554,5 @@ st.markdown("""
     <p><small>Universal AI-powered content summarization for YouTube videos and web articles</small></p>
 </div>
 """, unsafe_allow_html=True)
+
 
