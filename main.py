@@ -296,7 +296,7 @@ def extract_website_content(url):
 
 def generate_gemini_summary(content_data, lang_choice, summary_level, summary_style, content_type):
     try:
-        model = genai.GenerativeModel("gemini-2.0-flash-exp")
+        model = genai.GenerativeModel("gemini-1.5-flash")
 
         content = content_data['content']
         title = content_data.get('title', 'Unknown Title')
@@ -554,3 +554,4 @@ st.markdown("""
     <p><small>Universal AI-powered content summarization for YouTube videos and web articles</small></p>
 </div>
 """, unsafe_allow_html=True)
+
